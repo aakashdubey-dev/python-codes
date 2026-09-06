@@ -307,17 +307,39 @@ list=[1,2,3,4,5]
 print_el(list,0)"""
 
 #code for fibonacci
-def fibonacci(n):
-    first=0
-    second=1
-    i=1
-    while(i<n):
-        fib=first+second 
-        first =second
-        second =fib
-        i+=1
+# def fibonacci(n):
+#     first=0
+#     second=1
+#     i=1
+#     while(i<n):
+#         fib=first+second 
+#         first =second
+#         second =fib
+#         i+=1
 
-    return fib
+#     return fib
 
-n=6
-print(fibonacci(n))
+# n=6
+# print(fibonacci(n))
+
+# def printn(n):
+#     if(n==0):
+#         print(n)
+#         return
+
+#     print(n)
+#     printn(n-1)
+
+# n=4
+# printn(n)
+
+#code to revise fibonacci in recursion
+# def fibonacci(n):
+#     if(n==0 or n==1):
+#         return n
+
+#     return fibonacci(n-1)+ fibonacci(n-2)
+
+# n=4
+# print(fibonacci(n))
+
