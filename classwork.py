@@ -96,3 +96,20 @@ print(a)"""
 a=grade.sort()
 print(grade)"""
 
+#code to convert the f and c  to k temperature function
+# def fehranite_to_celcius(fehranite):
+#     print("in celcius",(fehranite-32)*5/9)
+# def celcius_to_fehranite(celcius):
+#     print("in fehranite",(celcius+32)*9/5)
+# def celcius_to_kelvin(celcius):
+#     print("in kelvin: ",celcius+273.75)
+
+# fehranite=98.6
+# celcius=48
+# fehranite_to_celcius(fehranite)
+# celcius_to_fehranite(celcius)
+# celcius_to_kelvin(celcius)
+
+
+
+
