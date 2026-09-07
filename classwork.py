@@ -111,5 +111,43 @@ print(grade)"""
 # celcius_to_kelvin(celcius)
 
 
+#code for factorial using return 
+"""def fact(n):
+    if(n==1):
+        return n
+
+    return n*fact(n-1)
+
+print(fact(n=4))"""
+
+#code for check even or odd using return
+"""def check(n):
+    if(n%2==0):
+        return "even"
+    if(n%2!=0):
+        return "odd"
+
+a=int(input("enter the number"))
+print(check(a))"""
+"""
+#code for area of rectangle
+def area(length,breadth):
+    return length*breadth
+
+a=int(input("enter the length"))
+b=int(input("enter the breadth"))
+print("the area is:",area(a,b))"""
+
+#code for electricity bill
+"""def bill(unit,n=6):
+    return unit*n
+
+unit=int(input("enter the units:"))
+a=bill(unit) 
+print(a)"""
+
+
+
+
 
 
