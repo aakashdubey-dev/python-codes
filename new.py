@@ -343,3 +343,7 @@ print_el(list,0)"""
 # n=4
 # print(fibonacci(n))
 
+#wap to display all student details
+#area of rectangle 
+#bank application
+# movie wala 

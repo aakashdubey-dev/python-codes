@@ -147,5 +147,22 @@ a=bill(unit)
 print(a)"""
 
 
+# import pyttsx3
+# import cowsay
+# engine=pyttsx3.init()
+# this =input("what is this ")
+# cowsay.cow(this)
+# engine.say(this)
+# engine.runAndWait()
+
+#code for random library
+# import random
+# otp=" "
+# for i in range(6):
+#     otp=otp+str(random.randint(0,9))
+# print("your otp is",otp)
+
+
+
 
 
