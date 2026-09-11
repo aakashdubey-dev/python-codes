@@ -343,7 +343,48 @@ print_el(list,0)"""
 # n=4
 # print(fibonacci(n))
 
-#wap to display all student details
-#area of rectangle 
-#bank application
-# movie wala 
+#I/O operation on closed fil
+#read operation
+""""file=open("sample.txt","r")
+data = file.read(6)
+print(data)
+
+
+d1=file.readline()
+d2=file.readline()
+
+print(d1)
+print(d2)"""
+
+# read operation
+# file=open("demo.txt","a")  #we can alse create and write in the created file
+"""file=open("demo.txt","a")   #append mode
+file=open("demo.txt","w")   #write mode
+data =file.write("\nhari kripa")
+
+file.close()"""
+
+# '+' opeartion 
+# 'r+'
+# file= open("sample.txt","r+")
+# data = file.read()
+# print(data)
+
+# file.write("aakash ji  ")
+
+#w+
+# file=open("sample.txt","w+")
+# file.write("akash")
+
+# data=file.read()
+# print(data)
+
+#"a+"
+# file=open("demo.txt","a+")
+
+# data=file.read()
+# print(data)
+
+
+# file.write("\naakash is servant of god")
+
