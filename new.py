@@ -388,3 +388,77 @@ file.close()"""
 
 # file.write("\naakash is servant of god")
 
+#with statement in python"
+"""with open("sample.txt","r") as file:
+    data=file.read()
+    print(data)
+
+with open("sample.txt","w") as file:
+    file.write("spiderman is legend")"""
+
+#deleting the file 
+"""import os
+os.remove("demo.txt")"""  #a in built library in python no need to install it
+
+#wap to make a fileand save some data in it
+
+# with open("demo.txt","w") as f:
+#     f.write("All is well and good\neverthing is possible")
+
+#now replace is with iss
+"""with open("demo.txt","r") as f:
+    data =f.read()
+
+    new_data=data.replace("is","iss")
+    print(new_data)"""
+
+#now change the actual data 
+"""with open("demo.txt","w") as f:
+    f.write(new_data)"""
+
+#find the perticular word in from the file
+"""with open("demo.txt","r") as f:
+    data=f.read()
+    if(data.find("All")!=-1):
+        print("yes word present in the file")
+    else:
+        print("not present")"""
+
+#wap for find the word present in which line and alsp if word not found print -1
+"""def check_line(word):
+    data=True
+    line_num=1
+    with open("demo.txt","r") as f:
+        data=True
+        line_num=1
+        while data:
+            data=f.readline()
+            if(word in data):
+                print("word found in line no. =",line_num)
+                return
+            else:
+                line_num+=1
+
+        print("word not in the whole text")
+
+
+word ="All"
+check_line(word)"""
+
+#wap to chek in the file containing with number print the count of even number
+"""# with open("number.txt","w") as f:
+#     f.write("2,3,5,6,7,8,8,89")
+
+def count_even():
+    num=1
+    count=0
+    with open("number.txt","r") as f:
+        data=f.read()
+        nums=data.split(",")
+        for val in nums:
+            if(int(val)%2==0):
+                count+=1
+
+        print(count)
+
+count_even()"""
