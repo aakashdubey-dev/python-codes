@@ -54,3 +54,25 @@ s1.avg_marks() """
 s1=student()
 s1.hello()     #by instance
 student.hello()# by class """
+
+#encapsulation 
+#question
+"""class bank:
+    acc_no=2341
+
+    def __init__(self,amount,balance):
+        self.amount=amount
+        self.balance=balance
+
+    def debit(self):
+        curr_balance=self.balance-self.amount
+        print(curr_balance)
+                                           #wrapping the data and method 
+    def credit(self):
+        curr_balance=self.balance+self.amount
+        print(curr_balance)
+
+
+b=bank(700,10000)
+b.debit()
+b.credit()"""
