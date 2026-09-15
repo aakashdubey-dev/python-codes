@@ -67,8 +67,7 @@ student.hello()# by class """
     def debit(self):
         curr_balance=self.balance-self.amount
         print(curr_balance)
-                                           #wrapping the data and method 
-    def credit(self):
+                                           #wrapping the data and method     def credit(self):
         curr_balance=self.balance+self.amount
         print(curr_balance)
 
@@ -76,3 +75,104 @@ student.hello()# by class """
 b=bank(700,10000)
 b.debit()
 b.credit()"""
+
+#del keyword in python
+"""class car:
+    model="maruti800"
+
+    def __init__(self,price):
+        self.price=price
+
+    def priceandmodel(self):
+        print(self.price,self.model)
+
+c1=car(500000)
+del c1.model    #to delete the specific attribute
+del c1  # to delete the whole object
+c2=car(600000)
+c2.priceandmodel()
+c1.priceandmodel()"""
+
+#private concept in python
+"""class employee:
+    name="aakash"
+    emp_id=2
+    __salary=500000
+
+    def __show(self):
+        print(self.__salary,self.name)
+                                            #method and attribute only access inside the class
+    def display(self):
+        self.__show()
+
+
+e=employee()
+# e.show()
+# print(e.__salary)
+e.display()"""
+
+#inheritance 
+#single inheritance
+"""class car:
+    @staticmethod
+    def start():
+        print("the car is started")
+
+    @staticmethod
+    def clutch():
+        print("go for race")
+
+class toyota(car):
+    def __init__(self,name):
+        self.name=name
+
+        print(self.name)
+
+c=toyota("fortuner")
+c.start()"""
+
+#multilevel inheritance
+"""class car:
+    @staticmethod
+    def start():
+        print("the car is started")
+
+    @staticmethod
+    def clutch():
+        print("go for race")
+
+class company(car):
+    def __init__(self,brand):
+        self.brand=brand
+
+class model(company):
+    def __init__(self,name,speed):
+        self.name=name
+        self.speed=speed
+        n=company("toyota")
+
+        print(self.name,self.speed,n.brand)
+
+
+c=model("fortuner",120)
+c.start()
+"""
+
+#multiple inheritance
+"""class a:
+    def display(self):
+        print("i am a")
+
+class b:
+    def show(self):
+        print("i am b")
+
+class c(a,b):
+    def watch(self):
+        print("i am c")
+
+c1=c()
+c1.display()
+c1.show()
+c1.watch()"""
+
