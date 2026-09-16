@@ -176,3 +176,91 @@ c1.display()
 c1.show()
 c1.watch()"""
 
+#super method
+"""class car:
+    def __init__(self,type):
+        self.type=type
+    @staticmethod
+    def start():
+        print("car stated")
+
+class toyota(car):
+    def __init__(self,name,type):
+        super().__init__(type)
+        self.name=name
+
+        print(self.name,self.type)
+
+c=toyota("fortuner","diesel")
+c.start()"""
+
+#class method 
+"""class student:
+    name="spiderman"
+    # def details(self,name):
+    #     self.__class__.name=name
+
+    #to direct change the attribute in function
+    @classmethod
+    def details(cls,name):
+        cls.name=name
+
+st=student()
+# st.details("aakash")
+st.details("aakash")
+print(st.name)
+print(student.name)"""
+
+#property decorator
+"""class student:
+    def marks(self,phy,chem,maths):
+        self.phy=phy
+        self.chem=chem
+        self.maths=maths
+
+    @property
+    def percentage(self):
+        return (self.phy+self.chem+self.maths)/3
+        #percentage
+    # def percentage(self):
+    #     self.percentage=(self.phy+self.chem+self.maths)/3
+    #     print(self.percentage)
+
+st=student()
+st.marks(90,90,90)
+st.phy=54      #percentage will same
+print(st.percentage)"""
+
+#polymorphism
+"""class complex:
+    def __init__(self,real,img):
+        self.real=real
+        self.img=img
+
+    def show(self):
+        print(self.real,"i+",self.img,"j")
+
+    #normal function
+    # def add(num1,num2):
+    #     newreal=num1.real+num2.real
+    #     newimg=num1.img+num2.img
+    #     num3=complex(newreal,newimg)
+    #     return num3
+
+    #dunder function
+    def __add__(num1,num2):
+        newreal=num1.real+num2.real
+        newimg=num1.img+num2.img
+        num3=complex(newreal,newimg)
+        return num3
+
+
+
+num1=complex(1,2)
+num1.show()
+
+num2=complex(3,4)
+num2.show()
+
+num3=num1+num2
+num3.show()"""                       
