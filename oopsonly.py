@@ -299,5 +299,54 @@ class engineer(employee):
 e1=engineer("Aakash",19,"manager",180000,"product")
 e1.showdetails()"""
 
+# class father:
+#     hair_colour="black"
+
+# class mother:
+#     eye_colour="brown"
+
+# class child(father, mother):
+
+#     def displaygens(self):
+#         print("hair-colour:",self.hair_colour,"|","eye-colour: ",self.eye_colour)
+
+# c=child()
+# c.displaygens()
+
+# class shape:
+#     def __init__(self,length,breadth,radius,shapee):
+#         self.length=length
+#         self.breadth=breadth
+#         self.radius=radius
+#         self.shapee=shapee
+
+#     def area(self):
+#             if(self.shapee=="rectangle"):
+#                 return self.length*self.breadth
+            
+#             if(self.shapee=="circle"):
+#                 return 3.14*self.radius*self.radius
+
+# class rectangle(shape):
+#      def __init__(self,length,breadth,shapee):
+#         self.length=length
+#         self.breadth=breadth  
+#         self.shape=shapee
+#         pass
+
+# class circle(shape):
+#      def __init__(self,radius,shapee):
+#           self.radius=radius
+#           self.shapee=shapee
+#           pass
+
+# c1=circle(1,"circle")
+# print(c1.area())
+
+
+
+
+
+
 
 
