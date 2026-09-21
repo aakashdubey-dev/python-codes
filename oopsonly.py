@@ -343,6 +343,78 @@ e1.showdetails()"""
 # c1=circle(1,"circle")
 # print(c1.area())
 
+#question
+# class animal:
+#     def __init__(self,sound):
+#         self.sound=sound
+
+#     def display(self):
+#         if(self.sound=="bark"):
+#             print("The Dog is braking")
+
+#         elif(self.sound=="meow"):
+#             print("the animal is cat")
+
+#         else:
+#             print("sorry not recognized the animal")
+
+# a=animal("bark")
+# a.display()
+
+"""class animal:
+    def __init__(self,sound):
+        self.sound=sound
+
+    def voice(self):
+        print(self.sound)
+
+class dog(animal):
+    def __init__(self):
+        animal.sound ="bark"
+
+a=dog()
+a.voice()"""
+
+#encapsulation
+"""class emp:
+    def __init__(self,salary):
+        self.__salary=salary
+
+    def display(self):
+        print(self.__salary)
+
+e=emp(100000)
+e.display()"""
+
+#bank account system
+class bank:
+    def __init__(self,acc_holder,curr_balance,amt,acc_password):
+        self.__acc_holder=acc_holder
+        self.curr_balance=curr_balance
+        self.amt=amt
+        self.acc_password=acc_password
+
+    def withdraw(self):
+        Password=int(input("enter password:"))
+        if(Password!=self.acc_password):
+            print("Incorrect password|Try Again")
+        else:
+            if(self.amt>self.curr_balance):
+                print("insufficient balance")
+            else:
+                print("the balance after withdraw:",(self.curr_balance-self.amt))
+
+    def deposite(self):
+        Password=int(input("enter password:"))
+        if(Password!=self.acc_password):
+            print("Incorrect password|Try Again")
+        else:         
+            print("amt after deposite:",(self.curr_balance+self.amt))
+
+b=bank("spiderman",1000,200,2045)
+b.withdraw()
+
+
 
 
 
