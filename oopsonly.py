@@ -387,7 +387,7 @@ e=emp(100000)
 e.display()"""
 
 #bank account system
-class bank:
+"""class bank:
     def __init__(self,acc_holder,curr_balance,amt,acc_password):
         self.__acc_holder=acc_holder
         self.curr_balance=curr_balance
@@ -403,6 +403,7 @@ class bank:
                 print("insufficient balance")
             else:
                 print("the balance after withdraw:",(self.curr_balance-self.amt))
+                self.curr_balance=(self.curr_balance-self.amt)
 
     def deposite(self):
         Password=int(input("enter password:"))
@@ -410,12 +411,32 @@ class bank:
             print("Incorrect password|Try Again")
         else:         
             print("amt after deposite:",(self.curr_balance+self.amt))
+            self.curr_balance=(self.curr_balance+self.amt)
 
 b=bank("spiderman",1000,200,2045)
 b.withdraw()
+print(b.curr_balance)"""
 
+#library system
+"""class library:
+    issued_book="Gravity"
+    def __init__(self,title,author):
+        self.title=title
+        self.author=author
 
+    def issue_book(self):
+        if(library.issued_book==self.title):
+            print("Book is already issued by someone")
+        else:
+            print("the book is issued author name:",self.author)
 
+    def return_book(self):
+        print("the is return with title name:",self.title)
+
+l=library("Practice","Aakash")
+l.issue_book()
+l.return_book()
+"""
 
 
 
