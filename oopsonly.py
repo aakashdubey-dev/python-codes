@@ -439,6 +439,22 @@ l.return_book()
 """
 
 
+# class student:
+#     name="aakash"
+#     def __init__(self,marks):
+#         self.marks=marks
+
+#     def display(self):
+#         print("loki")
+
+# class child(student):
+#     def __init__(self,name,marks):
+#         self.name=name
+#         super().__init__(marks)
+#         super().display()
+
+# ch=child("aakash",120)
+# print(ch.marks)
 
 
 
