@@ -456,6 +456,24 @@ l.return_book()
 # ch=child("aakash",120)
 # print(ch.marks)
 
+#code for student management system
+# class student:
+#     def __init__(self,name,age,rollno,fav_subject):
+#         self.name=name
+#         self.age=age
+#         self.rollno=rollno
+#         self.fav_subject=fav_subject
+
+#     def display_details(self):
+#         print("the details is:",self.name,self.rollno,self.age,self.fav_subject)
+
+# class add_student(student):
+#     def __init__(self):
+#         super().display_details()
+
+# a=student("aakash",19,2,"dsa")
+# a.display_details()
+
 
 
 
