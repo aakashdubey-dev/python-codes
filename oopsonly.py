@@ -67,7 +67,8 @@ student.hello()# by class """
     def debit(self):
         curr_balance=self.balance-self.amount
         print(curr_balance)
-                                           #wrapping the data and method     def credit(self):
+                                           #wrapping the data and method    
+                                           #  def credit(self):
         curr_balance=self.balance+self.amount
         print(curr_balance)
 
