@@ -462,3 +462,34 @@ def count_even():
         print(count)
 
 count_even()"""
+
+"""f=open("op.txt","a+")
+f.write("hihi")
+data=f.read()
+print(data)
+f.close()"""
+
+# class student:
+#     @staticmethod
+#     def display():
+#         print("hello i am static")
+
+    
+#     def show(self):
+#         print("hello i am normal fn")
+
+# s=student()
+# student.display()
+# #s.show()
+
+"""class bank:
+    acc_no=123
+
+    def __init__(self,balance):
+        self.__balance=balance
+
+    def show_balance(self):
+        print("The balance is : ",self.__balance)
+
+b=bank(55999)
+b.show_balance()"""
